@@ -1,7 +1,7 @@
 {
   "name": "svelte-app",
   "version": "1.0.0",
-  "homepage": "http://robbyawaldi.github.io/resume",
+  "homepage": "http://robbyawaldi.github.io",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
