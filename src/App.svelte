@@ -4,7 +4,7 @@
 			About <span class="font-bold text-blue-400">Me</span>
 		</h1>
 		<div class="mt-3 font-bold">Hi 👋, I'am Robby Awaldi</div>
-		<p class="font-thin">
+		<p>
 			A passionate Full Stack Software Developer having an experience of
 			building Web with Javascript, React js, Svelte, Node JS, Docker,
 			Laravel, Django and some other cool libraries and frameworks.
@@ -16,7 +16,7 @@
 					<ul class="list-disc list-outside ml-3">
 						<li>
 							<h2>PT Mitra Erat Technology</h2>
-							<p class="font-thin">
+							<p>
 								Building the CMS application, designing the flow
 								and planning of the Indihome Study learning
 								platform provide services that support business
