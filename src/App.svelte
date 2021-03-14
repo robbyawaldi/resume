@@ -1,6 +1,6 @@
-<main class="md:w-10/12 mx-auto mt-10 flex container justify-between">
-	<div class="w-4/6">
-		<h1 class="text-3xl font-thin">
+<main class="md:w-10/12 mx-auto mt-10 flex md:flex-row flex-col container justify-between">
+	<div class="md:w-4/6 md:m-0 m-3 w-full md:order-1 order-2">
+		<h1 class="text-3xl font-thin md:text-left text-center">
 			About <span class="font-bold text-blue-400">Me</span>
 		</h1>
 		<div class="mt-3 font-bold">Hi 👋, I'am Robby Awaldi</div>
@@ -9,8 +9,8 @@
 			building Web with Javascript, React js, Svelte, Node JS, Docker,
 			Laravel, Django and some other cool libraries and frameworks.
 		</p>
-		<div class="flex mt-5">
-			<div class="w-3/6">
+		<div class="flex md:flex-row flex-col mt-5">
+			<div class="md:w-3/6 w-full">
 				<h1 class="font-bold">Experience</h1>
 				<div class="border-l-2 mt-2">
 					<ul class="list-disc list-outside ml-3">
@@ -31,20 +31,13 @@
 						Universitas Indraprasta PGRI / Bachelor of Informatics
 						Engineering
 					</h2>
-					<h3>
-						GPA : 3.65 / 4.00 <span class="italic font-bold"
-							>cumplode</span
-						>
-					</h3>
 				</div>
 			</div>
-			<div class="w-3/6">
+			<div class="md:w-3/6 w-full mt-2">
 				<h1 class="font-bold mb-3">What Skill I have</h1>
 				<div class="flex gap-2 flex-wrap">
 					<span class="chip">Javascript</span>
 					<span class="chip">Python</span>
-					<span class="chip">Java</span>
-					<span class="chip">Golang</span>
 					<span class="chip">PHP</span>
 					<span class="chip">CSS</span>
 					<span class="chip">Github</span>
@@ -62,7 +55,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="w-2/6 flex justify-end">
+	<div class="md:w-2/6 flex order-1 w-full justify-end">
 		<img src="/assets/nrrbbbbby.svg" alt="" width="500" />
 	</div>
 </main>
