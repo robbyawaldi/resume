@@ -1,4 +1,4 @@
-<main class="md:w-10/12 mx-auto mt-10 flex md:flex-row flex-col container justify-between">
+<main class="md:w-10/12 h-screen mx-auto mt-10 flex md:flex-row flex-col container justify-between">
 	<div class="md:w-4/6 md:m-0 m-3 w-full md:order-1 order-2">
 		<h1 class="text-3xl font-thin md:text-left text-center">
 			About <span class="font-bold text-blue-400">Me</span>
