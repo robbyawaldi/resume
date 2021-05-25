@@ -15,6 +15,10 @@
 			"content1"
 			"content2"
 			"content3"
-			"content4"}img{grid-area:image}.content1{grid-area:content1}.content2{grid-area:content2}.content3{grid-area:content3}@media screen and (min-width: 640px){body{height:100vh}main{gap:1rem;padding:0;max-width:56rem;max-height:28rem;grid-template-columns:repeat(3, 1fr);grid-template-rows:1fr 10rem 1fr;grid-template-areas:"content1 content1 image"
+			"content4"}img{grid-area:image}.content1{grid-area:content1}.content2{grid-area:content2}.content3{grid-area:content3}@media screen and (min-width: 1024px){body{height:100vh}main{gap:1rem;padding:0;max-width:56rem;max-height:28rem;grid-template-columns:repeat(3, 1fr);grid-template-rows:1fr 10rem 1fr;grid-template-areas:"content1 content1 image"
 				"content2 content4 image"
-				"content3 content4 image"}}@media(min-width: 640px){}@media(min-width: 768px){.md\:text-left{text-align:left}}@media(min-width: 1024px){}@media(min-width: 1280px){}@media(min-width: 1536px){}
+				"content3 content4 image"}}@media screen and (min-width: 768px) and (max-width: 1024px){body{height:100%}img{justify-self:center}main{padding:0;max-width:56rem;max-height:28rem;gap:2rem;grid-template-columns:1fr;grid-template-rows:repeat(5, auto);grid-template-areas:"image"
+				"content1"
+				"content2"
+				"content3"
+				"content4"}}@media print{img{justify-self:center}}@media(min-width: 640px){}@media(min-width: 768px){.md\:text-left{text-align:left}}@media(min-width: 1024px){}@media(min-width: 1280px){}@media(min-width: 1536px){}
