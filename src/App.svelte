@@ -2,7 +2,7 @@
 	<img src="/assets/nrrbbbbby.svg" alt="" width="500" />
 
 	<div class="content1">
-		<h1 class="text-3xl font-thin md:text-left text-center">
+		<h1 class="text-3xl font-thin md:text-left text-center leading-3">
 			About <span class="font-semibold text-lg text-blue-400">Me</span>
 		</h1>
 		<p>
@@ -30,13 +30,16 @@
 				</li>
 			</ul>
 		</div>
-		<h1 class="font-semibold text-lg mt-3">Education</h1>
+	</div>
+
+	<div class="content3">
+		<h1 class="font-semibold text-lg">Education</h1>
 		<p>
 			Universitas Indraprasta PGRI / Bachelor of Informatics Engineering
 		</p>
 	</div>
 
-	<div class="content3">
+	<div class="content4">
 		<h1 class="font-semibold text-lg">What Skill I have</h1>
 		<div class="flex gap-2 flex-wrap">
 			<span class="chip">Javascript</span>
@@ -85,14 +88,15 @@
 		height: 100%;
 		margin: 1rem;
 		display: grid;
-		gap: 1rem;
+		gap: 2rem;
 		grid-template-columns: 1fr;
-		grid-template-rows: repeat(4, 1fr);
+		grid-template-rows: repeat(5, auto);
 		grid-template-areas:
 			"image"
 			"content1"
 			"content2"
-			"content3";
+			"content3"
+			"content4";
 	}
 
 	img {
@@ -117,14 +121,16 @@
 		}
 
 		main {
+			gap: 1rem;
 			padding: 0;
 			max-width: 56rem;
 			max-height: 28rem;
 			grid-template-columns: repeat(3, 1fr);
-			grid-template-rows: repeat(2, 1fr);
+			grid-template-rows: 1fr 10rem 1fr;
 			grid-template-areas:
 				"content1 content1 image"
-				"content2 content3 image";
+				"content2 content4 image"
+				"content3 content4 image";
 		}
 	}
 </style>
