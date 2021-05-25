@@ -115,7 +115,7 @@
 		grid-area: content3;
 	}
 
-	@media screen and (min-width: 640px) {
+	@media screen and (min-width: 1024px) {
 		body {
 			height: 100vh;
 		}
@@ -131,6 +131,37 @@
 				"content1 content1 image"
 				"content2 content4 image"
 				"content3 content4 image";
+		}
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 1024px) {
+		body {
+			height: 100%;
+		}
+
+		img {
+			justify-self: center;
+		}
+
+		main {
+			padding: 0;
+			max-width: 56rem;
+			max-height: 28rem;
+			gap: 2rem;
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat(5, auto);
+			grid-template-areas:
+				"image"
+				"content1"
+				"content2"
+				"content3"
+				"content4";
+		}
+	}
+
+	@media print {
+		img {
+			justify-self: center;
 		}
 	}
 </style>
