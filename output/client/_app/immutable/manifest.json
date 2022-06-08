@@ -1,0 +1,64 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-d573a74d.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-b6926417.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/for-ridha.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-2c3d080a.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b6926417.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-ced54da7.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-d7861ee7.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b6926417.js"
+    ]
+  },
+  "src/routes/for-ridha.svelte": {
+    "file": "pages/for-ridha.svelte-068fe16f.js",
+    "src": "src/routes/for-ridha.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b6926417.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-b2ca0ccf.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b6926417.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-77403e5d.css"
+    ],
+    "assets": [
+      "assets/illustration-318c08c0.svg"
+    ]
+  },
+  "_index-b6926417.js": {
+    "file": "chunks/index-b6926417.js"
+  }
+}
