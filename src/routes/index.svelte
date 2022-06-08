@@ -40,10 +40,7 @@
 		<h1 class="font-semibold text-lg">What Skill I have</h1>
 		<div class="flex gap-2 flex-wrap">
 			<span class="chip">Javascript</span>
-			<span class="chip">Python</span>
-			<span class="chip">PHP</span>
 			<span class="chip">CSS</span>
-			<span class="chip">SASS</span>
 			<span class="chip">Github</span>
 			<span class="chip">MySQL</span>
 			<span class="chip">PostgreSQL</span>
