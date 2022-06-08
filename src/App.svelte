@@ -5,7 +5,7 @@
 </script>
 <Router routes={{
 	'/': Portofolio,
-	'': Love
+	'/for-ridha': Love
 }}/>
 		
-
+W
