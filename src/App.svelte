@@ -7,5 +7,3 @@
 	'/': Portofolio,
 	'/for-ridha': Love
 }}/>
-		
-W
