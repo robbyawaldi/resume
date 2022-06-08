@@ -2,7 +2,7 @@
 import { publish } from 'gh-pages';
 
 publish(
- 'svelte-kit', // path to public directory
+ 'public', // path to public directory
  {
   branch: 'gh-pages',
   repo: 'https://github.com/robbyawaldi/robbyawaldi.github.io', // Update to point to your repository
