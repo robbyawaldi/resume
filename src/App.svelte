@@ -3,6 +3,8 @@
 	import Portofolio from './Portofolio.svelte';
 </script>
 
-<Router routes={{
-	'/': Portofolio,
-}}/>
+<Router
+	routes={{
+		'/': Portofolio
+	}}
+/>
