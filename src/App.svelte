@@ -1,13 +1,6 @@
-<script lang="ts">
-  import profile from "./assets/profile.jpg";
-</script>
-
 <main class="p-4 flex flex-col gap-8 max-w-2xl m-auto">
-  <img
-    class="self-center rounded-full md:w-[200px] w-[150px]"
-    src={profile}
-    alt=""
-    width="500"
+  <div
+    class="self-center rounded-full md:w-[200px] w-[150px] md:h-[200px] h-[150px] bg-[url('/profile.jpeg')] bg-bottom bg-cover"
   />
 
   <div class="">
@@ -81,7 +74,7 @@
   </div>
 </main>
 
-<style global lang="postcss">
+<!-- <style global lang="postcss">
   @import "tailwindcss/base";
 
   @import "tailwindcss/components";
@@ -103,4 +96,4 @@
       @apply h-screen;
     }
   }
-</style>
+</style> -->
