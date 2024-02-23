@@ -1,6 +1,6 @@
 <main class="p-4 flex flex-col gap-8 max-w-2xl m-auto">
   <div
-    class="self-center rounded-full md:w-[200px] w-[150px] md:h-[200px] h-[150px] bg-[url('/profile.jpeg')] bg-bottom bg-cover"
+    class="self-center rounded-full md:w-[200px] w-[150px] md:h-[200px] h-[150px] print:bg-[url('/profile.jpeg')] bg-[url('/profile.jpeg')] bg-bottom bg-cover"
   />
 
   <div class="">
@@ -8,8 +8,7 @@
       About <span class="font-semibold text-lg text-blue-400">Me</span>
     </h1>
     <p>
-      <span class="block mt-3 font-semibold text-lg"
-        >Hi 👋, I'am Robby Awaldi</span
+      <span class="block mt-3 font-semibold text-lg">Hi, I'am Robby Awaldi</span
       >
       A passionate Frontend Developer having an experience of building Web with Javascript,
       React js, Node JS, Docker and some other cool libraries and frameworks.
