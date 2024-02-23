@@ -69,6 +69,7 @@
       <span class="chip">Docker</span>
       <span class="chip">Node JS</span>
       <span class="chip">React JS</span>
+      <span class="chip">Vue JS</span>
       <span class="chip">Tailwindcss</span>
     </div>
   </div>
